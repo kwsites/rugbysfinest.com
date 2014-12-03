@@ -1,0 +1,247 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: verdana, sans-serif;
+    font-size: 10pt;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+.website {
+    width: 894px;
+    margin: 15px auto;
+    background-color: #ffffff;
+    padding: 0 0 10px 0;
+    position: relative;
+
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 15px 4px RGBA(0,0,0,0.5);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h1 span {
+    font-weight: normal;
+    font-family: cambria, sans-serif;
+    font-size: 4em;
+    text-shadow: 1px 1px 4px #000;
+    color: #000;
+}
+
+h1 .finest {
+    margin-left: 0.25em;
+    color: #ff9933;
+    text-shadow: 1px 1px 4px #ff9933;
+}
+
+nav {
+    display: table;
+    width: 100%;
+    border: #ff9933 solid;
+    border-width: 1px 0;
+}
+
+nav ul {
+    background: #ff9933;
+    list-style-type: none;
+    white-space: nowrap;
+    display: table-row;
+}
+
+nav li {
+    display: table-cell;
+    text-align: center;
+}
+
+.nav-link {
+    line-height: 2.5em;
+    font-size: 0.7em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: #ff9933;
+}
+
+.thumbnails span {
+    text-indent: -50px;
+    font-size: 0;
+    line-height: 0;
+    display: inline-block;
+    width: 50px;
+    height: 71px;
+    background-color: #eee;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+.thumbnails span:hover {
+    border-color: red;
+}
+
+.regular-view-image {
+    width: 250px;
+    border: 1px solid #000;
+}
+
+/* section about the site and the boys in the calendar */
+#about {
+    display: block;
+    margin: 10px;
+    width: 252px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+#about dt {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #ff9933;
+    text-align: center;
+}
+
+#about dd {
+    height: 400px;
+    overflow: hidden;
+}
+
+#about p {
+    margin-top: 0.25em;
+}
+
+#about em {
+    display: block;
+}
+
+#about .homepage p {
+    text-align: center;
+}
+
+#about .homepage a {
+    color: #ff9933;
+    text-decoration: none;
+}
+
+#about .homepage a:hover {
+    text-decoration: underline;
+}
+
+#about .thumbnails {
+    list-style-type: none;
+}
+
+#about .thumbnails li {
+    margin: 5px;
+    float: left;
+}
+
+/* social media section */
+#social {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 272px;
+    height: 45px;
+    width: 612px;
+    margin: -55px 0 0 0;
+}
+
+#social td {
+    vertical-align: top;
+}
+
+#social .twitter-tweet {
+    width: 60px;
+}
+
+#social .facebook-like {
+    width: 512px;
+}
+
+#social .follow-on {
+    font-size: 0.7em;
+}
+
+#social .icon-link {
+    display: inline-block;
+    padding-left: 11px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 1em;
+    color: #ff9933;
+    text-decoration: none;
+}
+
+#social .icon-link:hover {
+    text-decoration: underline;
+}
+
+#social .facebook-icon {
+    background-image: url(../img/icon_facebook.gif);
+}
+
+#social .twitter-icon {
+    background-image: url(../img/icon_twitter.gif);
+}
+
+/* video player */
+#video {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 272px;
+    height: 350px;
+    width: 612px;
+    margin: -435px 0 0 0;
+    text-align: center;
+}
+
+#video object, #video iframe {
+    border: 1px solid #000;
+}
+
+.front-cover {
+    width: 264px;
+    height: 374px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    -webkit-transition: all 1500ms ease;
+    -moz-transition: all 1500ms ease;
+    -ms-transition: all 1500ms ease;
+    -o-transition: all 1500ms ease;
+    transition: all 1500ms ease;
+}
+
+.front-cover-under {
+    z-index: 1;
+}
+
+
+.front-cover-container {
+    width: 264px;
+    height: 374px;
+    border: 1px solid black;
+    box-shadow: 0 0 13px rgba(0,0,0,0.5);
+    position: relative;
+    margin: 0 auto;
+}
